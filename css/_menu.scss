@@ -68,7 +68,7 @@
     background: darken($primary-color, 5);
     list-style: none;
     transform: translated3d(0, -100%, 0);
-    @include eastOut;
+    @include easeOut;
 
     &.show {
       //Slide in from top
