@@ -302,6 +302,26 @@ main#home h1 {
   border-bottom: #eece1a 5px solid;
 }
 
+.projects {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.projects img {
+  width: 100%;
+  border: 3px #ffffff solid;
+}
+
+.projects img:hover {
+  opacity: 0.5;
+  border-color: #eece1a;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
 #main-footer {
   text-align: center;
   padding: 1rem;
