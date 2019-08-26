@@ -1,0 +1,24 @@
+{
+  "name": "modernportfolio",
+  "version": "1.0.0",
+  "description": "modern portfolio tutorial",
+  "main": "index.js",
+  "homepage": "https://letscook1.github.io/modernportfolio/",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letscook1/modernportfolio.git"
+  },
+  "author": "Michelle Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/letscook1/modernportfolio/issues"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
